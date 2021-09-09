@@ -1,0 +1,51 @@
+.Todo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Todo form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Todo input {
+	border: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	outline: none;
+	width: 500px;
+	font-size: 28px;
+	background-color: #dfe6e9;
+	color: black;
+	text-align: center;
+}
+
+.Todo textarea {
+	border: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	outline: none;
+	resize: none;
+	width: 500px;
+	height: 150px;
+	background-color: #dfe6e9;
+	color: black;
+	font-size: 18px;
+}
+
+.Todo button {
+	font-size: 18px;
+	border: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	outline: none;
+	padding: 10px 28px;
+	background-color: #dfe6e9;
+	transition: background-color 0.3s;
+}
+
+.Todo button:hover {
+	background-color: #b2bec3;
+}

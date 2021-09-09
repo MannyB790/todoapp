@@ -1,0 +1,40 @@
+.navBar {
+	background-color: #74b9ff;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navBar ul {
+	display: flex;
+	list-style: none;
+}
+
+.navBar li {
+	margin: 10px;
+}
+
+.navBar a {
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.navBar a:hover {
+	color: #2d3436;
+}
+
+.button {
+	background-color: transparent;
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 22px;
+	cursor: pointer;
+	margin: 0 10px;
+	transition: color 0.3s;
+}
+
+button:hover {
+	color: #2d3436;
+}
