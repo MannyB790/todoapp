@@ -6,6 +6,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Todos from './pages/Todos'
+import About from './pages/About'
 
 function App() {
 	const [user] = useAuthState(auth)
@@ -33,6 +34,9 @@ function App() {
 						<Todos />
 					</Route>
 				)}
+				<Route path='/about'>
+					<About />
+				</Route>
 			</Switch>
 		</div>
 	)

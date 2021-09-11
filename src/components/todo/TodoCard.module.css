@@ -1,0 +1,52 @@
+.Card {
+	display: flex;
+	justify-content: space-between;
+	background-color: #dfe6e9;
+	border-radius: 5px;
+	padding: 10px;
+	min-height: 100px;
+	min-width: 100px;
+}
+
+.Card h2 {
+	word-wrap: break-word;
+}
+
+.Card p {
+	word-wrap: break-word;
+}
+
+.Info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.Actions {
+	display: flex;
+	flex-direction: column;
+}
+
+.Delete {
+	border: none;
+	padding: 0 10px;
+	background-color: #f71735;
+	font-size: 28px;
+	cursor: pointer;
+}
+
+.Edit {
+	border: none;
+	padding: 0 10px;
+	background-color: #41ead4;
+	font-size: 28px;
+	cursor: pointer;
+}
+
+.Expand {
+	border: none;
+	padding: 0 10px;
+	background-color: #fdfffc;
+	font-size: 28px;
+	cursor: pointer;
+}

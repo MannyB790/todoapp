@@ -1,0 +1,6 @@
+.Todos {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 30rem);
+	gap: 10px;
+	justify-content: center;
+}

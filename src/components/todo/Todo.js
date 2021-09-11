@@ -35,6 +35,7 @@ const Todo = () => {
 					type='text'
 					id='todo'
 					required
+					maxLength='36'
 					ref={todoRef}
 					value={todoText}
 					onChange={e => {
